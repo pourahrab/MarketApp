@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Market.Entities.ShouldMap
 {
-    public abstract class OrderItem
+    public abstract class OrderItem : BaseEntity
     {
 
         public OrderItem()
         {
-            Id = Guid.NewGuid();
+           
         }
 
-        public virtual Guid Id { get; set; }
+       
 
         public virtual decimal QTY { get; set; }
 

@@ -3,6 +3,7 @@ using Market.Data.Configuration;
 using Market.Entities.ShouldMap;
 using Market.Entities.Utility;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NHibernate.Linq;
 
 namespace UnitTestProject1
 {
@@ -23,7 +24,7 @@ namespace UnitTestProject1
 
                     Assert.AreEqual(item.Id, ID);
 
-
+                    
                 }
             }
 

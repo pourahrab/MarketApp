@@ -23,5 +23,9 @@ namespace Market.Data.Mapping
             mapping.References(o => o.Rack1);
 
         }
+
     }
+    
+
+
 }

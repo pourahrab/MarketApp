@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace Market.Entities.ShouldMap
 {
-    public class RackItemLevel
+    public class RackItemLevel : BaseEntity
     {
         public RackItemLevel()
         {
-            Id = Guid.NewGuid();
+           
         }
-
-        public virtual Guid Id { get; set; }
 
         public virtual decimal CurrentQty { get; set; }
 

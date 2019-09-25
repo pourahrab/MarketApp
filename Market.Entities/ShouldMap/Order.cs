@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Market.Entities.ShouldMap
 {
-    public abstract class Order
+    public abstract class Order : BaseEntity
     {
 
         public Order()
         {
-            Id = Guid.NewGuid();
+           
 
             SaleorderItems = new List<SaleOrderItem>();
             PurchaseOrderItems = new List<PurchaseOrderItem>();
 
         }
 
-        public virtual Guid Id { get; set; }
+
 
         public virtual DateTime CreationDate { get; set; }
 

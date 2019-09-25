@@ -21,4 +21,5 @@ namespace Market.Data.Mapping
             mapping.HasMany(o => o.PurchaseOrderItems).Cascade.AllDeleteOrphan();
         }
     }
+    
 }

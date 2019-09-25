@@ -64,6 +64,7 @@
     <Compile Include="SaleOrderItemUnitTest.cs" />
     <Compile Include="PurchaseOrderUnitTest.cs" />
     <Compile Include="SaleOrderUnitTest.cs" />
+    <Compile Include="UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Market.Data\Market.Data.csproj">

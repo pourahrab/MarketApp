@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Market.Entities.ShouldMap
 {
-    public class Rack
+    public class Rack : BaseEntity
     {
         public Rack()
         {
-            Id = Guid.NewGuid();
+            
 
 
 
 
         }
 
-        public virtual Guid Id { get; set; }
+        
         public virtual string Name { get; set; }
         public virtual string Location { get; set; }
         public virtual decimal Limit { get; set; }

@@ -7,16 +7,16 @@ using Market.Entities.Utility;
 
 namespace Market.Entities.ShouldMap
 {
-    public class Item
+    public class Item : BaseEntity
     {
         public Item()
         {
-            Id = Guid.NewGuid();
+            
 
         }
 
 
-        public virtual Guid Id { get; set; }
+        
 
         public virtual string Name { get; set; }
 

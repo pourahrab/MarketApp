@@ -40,6 +40,8 @@ namespace Market.Data.Configuration
                 .Mappings(m => m.AutoMappings.Add(AutoMap.AssemblyOf<Rack>(cfg)
                     .UseOverridesFromAssemblyOf<RackMap>()))
 
+                //.Conventions.Add(typeof(BaseEntity))
+
                 .ExposeConfiguration(conf =>
                 {
                     new SchemaUpdate(conf).Execute(false, true);
