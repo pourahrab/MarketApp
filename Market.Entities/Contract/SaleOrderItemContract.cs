@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Market.Entities.ShouldMap;
 
-namespace Market.Entities.Interfaces
+namespace Market.Entities.Contract
 {
-    public interface IItemRepository: IRepository<Item> 
+    class SaleOrderItemContract:OrderItemContract
     {
     }
 }

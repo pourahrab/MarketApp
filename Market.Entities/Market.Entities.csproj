@@ -51,8 +51,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contract\ItemContract.cs" />
+    <Compile Include="Contract\PurchaseOrderContract.cs" />
+    <Compile Include="Contract\OrderItemContract.cs" />
+    <Compile Include="Contract\PurchaseOrderItemContract.cs" />
+    <Compile Include="Contract\RackContract.cs" />
+    <Compile Include="Contract\RackItemLevelContract.cs" />
+    <Compile Include="Contract\SaleOrderContract.cs" />
+    <Compile Include="Contract\SaleOrderItemContract.cs" />
     <Compile Include="Interfaces\IItemRepository.cs" />
+    <Compile Include="Interfaces\IPurchaseOrderRepository.cs" />
+    <Compile Include="Interfaces\IRackItemLevelRepository.cs" />
+    <Compile Include="Interfaces\IRackRepository.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Interfaces\ISaleOrderRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShouldMap\BaseEntity.cs" />
     <Compile Include="ShouldMap\Item.cs" />

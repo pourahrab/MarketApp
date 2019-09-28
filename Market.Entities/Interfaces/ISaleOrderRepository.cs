@@ -7,7 +7,7 @@ using Market.Entities.ShouldMap;
 
 namespace Market.Entities.Interfaces
 {
-    public interface IItemRepository: IRepository<Item> 
+    public interface ISaleOrderRepository : IRepository<SaleOrder>
     {
     }
 }

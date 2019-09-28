@@ -39,9 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ItemServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseOrderServices.cs" />
+    <Compile Include="RackServices.cs" />
+    <Compile Include="RackItemLevelServices.cs" />
+    <Compile Include="SaleOrderServices.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Market.Data\Market.Data.csproj">
+      <Project>{8f240aaf-36a9-41c1-87a3-7c9de0cfb709}</Project>
+      <Name>Market.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Market.Entities\Market.Entities.csproj">
       <Project>{d6031bb5-9ab7-4113-a289-0c79848bc9c5}</Project>
       <Name>Market.Entities</Name>
