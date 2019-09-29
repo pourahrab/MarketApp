@@ -11,6 +11,8 @@ namespace Market.Entities.Contract
     {
         public virtual Guid Id { get; set; }
 
+        public virtual decimal Code { get; set; }
+
         public virtual string Name { get; set; }
 
         public virtual UnitType Unit { get; set; }

@@ -17,7 +17,7 @@ namespace Market.Entities.ShouldMap
 
         }
 
-        
+        public virtual decimal Code { get; set; }
         public virtual string Name { get; set; }
         public virtual string Location { get; set; }
         public virtual decimal Limit { get; set; }

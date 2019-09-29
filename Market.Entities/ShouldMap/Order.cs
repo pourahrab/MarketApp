@@ -19,7 +19,7 @@ namespace Market.Entities.ShouldMap
         }
 
 
-
+        public virtual decimal Code { get; set; }
         public virtual DateTime CreationDate { get; set; }
 
         public virtual string Title { get; set; }

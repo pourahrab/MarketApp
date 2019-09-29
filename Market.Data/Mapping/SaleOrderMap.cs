@@ -17,6 +17,7 @@ namespace Market.Data.Mapping
             mapping.Map(o => o.CreationDate);
             mapping.Map(o => o.Title);
             mapping.HasMany(o => o.SaleorderItems).Cascade.AllDeleteOrphan();
+            mapping.Map(o => o.Code);
         }
     }
 }

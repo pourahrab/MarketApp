@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Market.Entities.Contract
 {
-    class SaleOrderItemContract:OrderItemContract
+    public class SaleOrderItemContract:OrderItemContract
     {
     }
 }

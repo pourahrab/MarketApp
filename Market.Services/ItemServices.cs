@@ -20,6 +20,7 @@ namespace Market.Services
             {
                 item.Name = itemContract.Name;
                 item.Unit = itemContract.Unit;
+                item.Code = itemContract.Code;
 
                 iitItemRepository.Update(item);
             }
@@ -29,6 +30,7 @@ namespace Market.Services
 
                item1.Name = itemContract.Name;
                item1.Unit = itemContract.Unit;
+               item1.Code = itemContract.Code;
 
                iitItemRepository.Insert(item1);
             }

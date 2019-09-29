@@ -15,6 +15,8 @@ namespace Market.Entities.Contract
         public virtual string Location { get; set; }
         public virtual decimal Limit { get; set; }
 
+        public virtual decimal Code { get; set; }
+
 
         public Guid RackId { get; set; }
     }

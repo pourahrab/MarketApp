@@ -16,6 +16,8 @@ namespace Market.Data.Mapping
             mapping.Id(i => i.Id).GeneratedBy.Assigned();
             mapping.Map(i => i.Name);
             mapping.Map(i => i.Unit);
+            mapping.Map(i => i.Code);
+
 
         }
     }

@@ -17,6 +17,7 @@ namespace Market.Data.Mapping
             mapping.Map(r => r.Limit);
             mapping.Map(r => r.Name);
             mapping.Map(r => r.Location);
+            mapping.Map(r => r.Code); 
 
             mapping.References(r => r.Rack1).Cascade.All();
         }
